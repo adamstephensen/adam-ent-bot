@@ -1,0 +1,121 @@
+{
+    "name": "adams-ent-bot-dev",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "id": "49",
+            "name": "adams-ent-bot-dev",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "d2b580f3-ca20-4684-905f-2bbe6fdb0e27",
+            "resourceGroup": "adams-ent-bot-dev",
+            "serviceName": "adams-ent-bot-dev",
+            "appId": "866a097d-b317-4af8-a565-3df7310ceef4"
+        },
+        {
+            "type": "endpoint",
+            "id": "1",
+            "name": "development",
+            "appId": "866a097d-b317-4af8-a565-3df7310ceef4",
+            "appPassword": "Y9EBwkoSYF2gmpTj6zcKSw==!uzKM3wkA/W7CYWOv4cXjCHezEqzrkJYNJ8k6y5AFzBodnABwiwHGro41mcNAEPuh",
+            "endpoint": "http://localhost:3978/api/messages"
+        },
+        {
+            "type": "endpoint",
+            "id": "30",
+            "name": "production",
+            "appId": "866a097d-b317-4af8-a565-3df7310ceef4",
+            "appPassword": "O4ttTAW1f4oMG+ucAm6W9A==!csfoQoe9XxrsEeS1VHB6n77uB8Q0nWaWKRjlmjmQLpH/3o3t4sJGkRZGodx0LPGV",
+            "endpoint": "https://adams-ent-bot-dev.azurewebsites.net/api/messages"
+        },
+        {
+            "type": "appInsights",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "d2b580f3-ca20-4684-905f-2bbe6fdb0e27",
+            "resourceGroup": "adams-ent-bot-dev",
+            "name": "adams-ent-bot-dev",
+            "serviceName": "adams-ent-bot-dev",
+            "instrumentationKey": "09PRc++5Wj9aXfOolBL/lg==!pYQ9fMi/O/TF8z8mBXOnRTeo5NhzaD4KNdxCK0GQmuEMS+xrVXLgquwkVAWtFO9M",
+            "applicationId": "442ee2ea-0cf2-4b89-8ddc-e247d2cc5b93",
+            "apiKeys": {},
+            "id": "3"
+        },
+        {
+            "type": "blob",
+            "id": "2",
+            "name": "adamsentbotdev",
+            "serviceName": "adamsentbotdev",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "d2b580f3-ca20-4684-905f-2bbe6fdb0e27",
+            "resourceGroup": "adams-ent-bot-dev",
+            "connectionString": "Wo+mS9bMBvMwe3bboCDwvw==!8jC2ttLjtmsvCh4nb4S+A0fGPdCRYsN6T/SwPXnKVJU5pv0d2P0t2gDzIuGPhilZlrKXZEleBOykUPycKAtHQWmg6W1UsamjIiJPtdS95gN9/9zkrXy67JHnc3kfCpoDaQXIcDLmGnWVx9yFc+3jyXARPLjX41u8fGM8pmsix48I7i52iKvOsbg14UeKsW+NvSxV0uFXFYtqPVPWOwLQzQ959y/tvZXB2VeYO8IAmGaTfdSNvaT6tu0ViYArJ8y+",
+            "container": "transcripts"
+        },
+        {
+            "type": "cosmosdb",
+            "id": "8",
+            "name": "adams-ent-bot-dev",
+            "serviceName": "adams-ent-bot-dev",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "d2b580f3-ca20-4684-905f-2bbe6fdb0e27",
+            "resourceGroup": "adams-ent-bot-dev",
+            "endpoint": "https://adams-ent-bot-dev.documents.azure.com:443/",
+            "key": "exOLNVCFMteLfxEHJiJtCQ==!jW5ZTP0IDXT7JI6OlRp3gJtEeXejy3nN23kQ1CrGQlYI6lpa9YbV8UPGvAOEOALnxu53bomjv6bpcMPVHcx7Z2RWQ1aMdEvy+66q+ThqDu8e1rjau4N+6neG1houTq/g",
+            "database": "botstate-db",
+            "collection": "botstate-collection"
+        },
+        {
+            "type": "luis",
+            "name": "adams-ent-bot-dev_General",
+            "appId": "5435ddb5-f295-4737-98f8-093da56530e0",
+            "authoringKey": "KDRPo4nwXTuEiDpZYPLzXw==!+EEAUqxsb/huA4+ztyWEomMM0Qx3q5qHkiLkTF5lY56opFORd8MYW2e/Cg9dKd1d",
+            "subscriptionKey": "zAnVXCz8vtEs1U+St+ONRg==!hdzNZEjyax4lltmHyWK9PC/Rmc3rEDSt/JjsxLMrRw5F5l4f9te/BvsbMYPwsr5c",
+            "version": "0.1",
+            "region": "australiaeast",
+            "id": "general"
+        },
+        {
+            "type": "qna",
+            "name": "FAQ",
+            "id": "faq",
+            "kbId": "106ddccf-1aaa-44c4-b8c8-3023a64ae9a1",
+            "subscriptionKey": "bIdL44QAOJVcobY8NVwJPQ==!3YrQ6dTSIoWpzcauFnFnngOAj9RpEwmDF14YJ4Kgf4GEG6h3T1L1fJGv6MDmmIKw",
+            "endpointKey": "1XrL/TlcXLUGONdGU1qrMg==!HoFHJ3Kql6zChxHA538etku+evihPMzGeiQavzT3G6ojIDJoxYxZePp/PHWQxdOr",
+            "hostname": "https://adams-ent-bot-dev-qnahost.azurewebsites.net/qnamaker"
+        },
+        {
+            "type": "qna",
+            "name": "ChitChat",
+            "id": "chitchat",
+            "kbId": "8ccd37bb-ca63-443e-9ab3-36165b3b199b",
+            "subscriptionKey": "gBHaIOChiyPGZegYpR11Hg==!VmaM2mSmUfauTTX0G9L7GkNnzFtXc7VFzYAJNXt/+Jzac7J2H+uckGuBBdxxsd+E",
+            "endpointKey": "yqDqx85qAsOLtGlYUpT5WQ==!m7HpMIp/M1YQr4FCznE+qnm4RmSkdSFx9cpzgPjRbAGlhCBHm7Ud78/W0nowaX/0",
+            "hostname": "https://adams-ent-bot-dev-qnahost.azurewebsites.net/qnamaker"
+        },
+        {
+            "type": "dispatch",
+            "serviceIds": [
+                "general",
+                "faq",
+                "chitchat"
+            ],
+            "name": "adams-ent-bot-dev_Dispatch",
+            "appId": "7808496e-9d5f-47b4-b36e-963670398819",
+            "authoringKey": "cL0WE1Izh4B08ILSPE65Pg==!sgx9diACNQenIrbgmGLoDVl5rpcgBh1L/uZejmR8ckd+t4MCOKAimMaZhZeUBzDy",
+            "subscriptionKey": "9xfES3GDi2TYRi3S8QwLRQ==!AOKp0/XfOGm8QUPpby5Qf3BB+EFRFVVfmtHv3rHL7a977+w1DCfWGEMUw8XUC3ff",
+            "version": "Dispatch",
+            "region": "australiaeast",
+            "id": "dispatch"
+        },
+        {
+            "type": "endpoint",
+            "name": "production",
+            "appId": "866a097d-b317-4af8-a565-3df7310ceef4",
+            "appPassword": "s13vLXW9g/Xkz86EdqAwsQ==!bcHZE3YZeYFKGu5mdU15MwcHwvaWfdAicxro/v4b8UekqAuDyN/p3nKLYKTr2KeH",
+            "endpoint": "https://adams-ent-bot-dev.azurewebsites.net/api/messages",
+            "id": "60"
+        }
+    ],
+    "padlock": "i9SNyjeSLp0HXuxA4R3nDg==!IclozpMa+7Su3i3J1/ljugbHNjXyY2E/euUosc1f7YdM6EsWG8FWVBqaTKWFzTiL",
+    "version": "2.0"
+}

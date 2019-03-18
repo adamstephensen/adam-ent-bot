@@ -1,0 +1,2 @@
+#!/bin/bash
+az bot publish --resource-group adams-ent-bot-dev -n adams-ent-bot-dev --subscription d2b580f3-ca20-4684-905f-2bbe6fdb0e27 -v v4 --proj-name "EnterpriseBotSample.csproj" 
